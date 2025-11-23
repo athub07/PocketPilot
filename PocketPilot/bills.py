@@ -8,7 +8,7 @@ def now_date_time():
 
 def header():
     date_str, time_str = now_date_time()
-    print("\n=== 💸 PocketPilot — Bill Splitter ===")
+    print("\n===  PocketPilot — Bill Splitter ===")
     print("Date:", date_str)
     print("Time:", time_str)
     print("-" * 40)
@@ -43,7 +43,8 @@ def bill_splitter():
     except:
         pass
 
-    print("\nP.S. Tip: Keep a screenshot — receipts and memories both matter 🙂\n")
+    print("\nP.S. Tip: Keep a screenshot — receipts and memories both matter :) \n")
 
 if __name__ == "__main__":
     bill_splitter()
+

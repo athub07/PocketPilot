@@ -35,7 +35,7 @@ def main_menu():
             import tips
             tips.tips_menu()
         elif choice == '5':
-            print("\nThank you for using PocketPilot! 😊")
+            print("\nThank you for using PocketPilot! :) ")
             print("Goodbye and remember: small savings lead to big wins!")
             break
         else:
@@ -48,3 +48,4 @@ if __name__ == "__main__":
 
     startup_banner()
     main_menu()
+

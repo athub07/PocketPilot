@@ -6,14 +6,14 @@ import random
 DATA_FILE = "data/debts.csv"
 
 EASTER_ADD = [
-    "Note: Trust but record. 😉",
-    "Added! Don’t forget to remind them with a meme. 😄",
-    "Saved — money today, friendship forever (mostly). 🫶"
+    "Note: Trust but record. ;) ",
+    "Added! Don’t forget to remind them with a meme. :-)",
+    "Saved — money today, friendship forever (mostly). <3 "
 ]
 EASTER_CLEAR = [
-    "Debt cleared — peace restored. ✌️",
-    "Paid — friendship level +1! 🏆",
-    "All good! You owe them a chai now. ☕"
+    "Debt cleared — peace restored. ",
+    "Paid — friendship level +1! ",
+    "All good! "
 ]
 
 def now_date_time():
@@ -22,7 +22,7 @@ def now_date_time():
 
 def header(title):
     date_str, time_str = now_date_time()
-    print(f"\n=== 🤝 PocketPilot — {title} ===")
+    print(f"\n===  PocketPilot — {title} ===")
     print("Date:", date_str)
     print("Time:", time_str)
     print("-" * 70)
@@ -170,7 +170,7 @@ def search_debts():
 
 def debts_menu():
     while True:
-        print("\n=== 🤝 PocketPilot — Debt / Lend Tracker ===")
+        print("\n===  PocketPilot — Debt / Lend Tracker ===")
         print("1. Add debt / lend")
         print("2. List all records")
         print("3. List open records")
@@ -200,3 +200,4 @@ def debts_menu():
 
 if __name__ == "__main__":
     debts_menu()
+

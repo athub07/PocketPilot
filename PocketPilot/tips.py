@@ -10,7 +10,7 @@ def now_date_time():
 
 def header(title):
     date_str, time_str = now_date_time()
-    print(f"\n=== 📚 PocketPilot — {title} ===")
+    print(f"\n===  PocketPilot — {title} ===")
     print("Date:", date_str)
     print("Time:", time_str)
     print("-" * 60)
@@ -87,7 +87,7 @@ def add_resource():
 
 def tips_menu():
     while True:
-        print("\n=== 📚 PocketPilot — Money-Saving Resources ===")
+        print("\n===  PocketPilot — Money-Saving Resources ===")
         print("1. Show all resources")
         print("2. Show resources by category")
         print("3. Add a resource")
@@ -108,3 +108,4 @@ def tips_menu():
 
 if __name__ == "__main__":
     tips_menu()
+

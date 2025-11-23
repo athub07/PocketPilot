@@ -10,7 +10,7 @@ def now_date_time():
 
 def header(title):
     date_str, time_str = now_date_time()
-    print(f"\n=== 📺 PocketPilot — {title} ===")
+    print(f"\n===  PocketPilot — {title} ===")
     print("Date:", date_str)
     print("Time:", time_str)
     print("-" * 50)
@@ -147,7 +147,7 @@ def remove_subscription():
 
 def subscription_menu():
     while True:
-        print("\n=== 📺 PocketPilot — Subscription Manager ===")
+        print("\n===  PocketPilot — Subscription Manager ===")
         print("1. Add subscription")
         print("2. List subscriptions")
         print("3. Show upcoming renewals")
@@ -174,3 +174,4 @@ def subscription_menu():
 
 if __name__ == "__main__":
     subscription_menu()
+
